@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ясли-сад «Еркем-ай» — Растём вместе с любовью и заботой!</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="topbar">
+		<div class="topbar_inner">
+			<div class="topbar_contacts">
+				<a href="tel:+77078096652" class="topbar_item">
+					<svg class="topbar_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+						<path
+							d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C11 21 3 13 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" />
+					</svg>
+					+7 707 809 6652
+				</a>
+				<a href="mailto:ismailovan@mail.ru" class="topbar_item">
+					<svg class="topbar_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+						<path
+							d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+					</svg>
+					ismailovan@mail.ru
+				</a>
+				<span class="topbar_item">
+					<svg class="topbar_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+						<path
+							d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm.5-13H11v6l5.2 3.2.8-1.3-4.5-2.7V7z" />
+					</svg>
+					Пн–Пт: 7:00 – 19:00
+				</span>
+			</div>
+			<a href="https://wa.me/77078096652" class="topbar_wa" target="_blank" rel="noopener">
+				<img src="img/wh.svg" alt="WhatsApp">
+			</a>
+		</div>
+	</div>
+
+	<header class="header">
+		<div class="header_inner">
+			<a href="#" class="header_logo">
+				<img src="img/logo.svg" alt="Еркем-ай">
+				<div class="header_logo_text">
+					<span class="header_logo_text_top">ЯСЛИ-САД</span>
+					<span class="header_logo_text_bottom">«ЕРКЕМ-АЙ»</span>
+				</div>
+			</a>
+			<button class="header_burger" id="burger" aria-label="Меню">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<nav class="header_nav" id="nav">
+				<a href="#about">О нас</a>
+				<a href="#services">Услуги</a>
+				<a href="#programs">Программы</a>
+				<a href="#nutrition">Питание</a>
+				<a href="#reviews">Отзывы</a>
+				<a href="#contact">Контакты</a>
+				<a href="documents.html">Документы</a>
+			</nav>
+		</div>
+	</header>
+
+	<main class="main">
+
+		<section class="hero_section" id="home">
+			<img class="hero_bg" src="img/banner.png" alt="">
+			<img class="section_wave_bottom" src="img/wave-white.svg" alt="">
+			<div class="hero_inner">
+				<div class="hero_slider" id="hero_slider">
+					<div class="hero_slide active">
+						<span class="hero_label">Добро пожаловать в</span>
+						<h1 class="hero_title">Ясли-сад «Еркем-ай»</h1>
+						<p class="hero_text">Растём вместе с любовью и заботой!</p>
+						<a href="#contact" class="btn_primary">Связаться с нами</a>
+					</div>
+					<div class="hero_slide">
+						<span class="hero_label">Качественное образование</span>
+						<h1 class="hero_title">Развиваем каждого ребёнка</h1>
+						<p class="hero_text">Индивидуальный подход, творчество и любовь к знаниям</p>
+						<a href="#programs" class="btn_primary">Наши программы</a>
+					</div>
+					<div class="hero_slide">
+						<span class="hero_label">Безопасность и комфорт</span>
+						<h1 class="hero_title">Здесь детям хорошо</h1>
+						<p class="hero_text">Уютная атмосфера, опытные педагоги, здоровое питание</p>
+						<a href="#about" class="btn_primary">Узнать больше</a>
+					</div>
+				</div>
+				<div class="hero_dots" id="hero_dots">
+					<button class="hero_dot active" data-index="0"></button>
+					<button class="hero_dot" data-index="1"></button>
+					<button class="hero_dot" data-index="2"></button>
+				</div>
+			</div>
+		</section>
+
+		<section class="services_section" id="services">
+			<div class="services_inner">
+				<div class="section_header">
+					<span class="section_label">Что мы предлагаем</span>
+					<h2 class="section_title">Наши услуги</h2>
+				</div>
+				<div class="services_grid">
+					<div class="service_card">
+						<div class="service_card_img">
+							<img src="img/obuchenierebenka.png" alt="Обучение ребенка">
+						</div>
+						<div class="service_card_body">
+							<h3>Обучение ребенка</h3>
+							<p>Обучение по стандарту дошкольного образования</p>
+						</div>
+					</div>
+					<div class="service_card">
+						<div class="service_card_img">
+							<img src="img/zdorovoepitanie.png" alt="Пятиразовое питание">
+						</div>
+						<div class="service_card_body">
+							<h3>Пятиразовое сбалансированное питание</h3>
+							<p>Завтрак, второй завтрак, обед, полдник и ужин</p>
+						</div>
+					</div>
+					<div class="service_card">
+						<div class="service_card_img">
+							<img src="img/horeografia.png" alt="Хореография">
+						</div>
+						<div class="service_card_body">
+							<h3>Хореография</h3>
+							<p>Поможем вашему ребенку стать настоящим артистом!</p>
+						</div>
+					</div>
+					<div class="service_card">
+						<div class="service_card_img">
+							<img src="img/obuchenieangliyskim.png" alt="Английский с носителем">
+						</div>
+						<div class="service_card_body">
+							<h3>Английский с носителем</h3>
+							<p>Поможем вашему ребенку выучить английский язык легко и непринужденно!</p>
+						</div>
+					</div>
+					<div class="service_card">
+						<div class="service_card_img">
+							<img src="img/goncharnoemasterstvo.png" alt="Гончарное мастерство">
+						</div>
+						<div class="service_card_body">
+							<h3>Гончарное мастерство</h3>
+							<p>Лепка из глины развивает мелкую моторику, воображение и усидчивость ребёнка.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about_section" id="about">
+			<div class="about_inner">
+				<div class="about_text">
+					<span class="section_label">О нас</span>
+					<h2 class="section_title">Почему выбирают нас</h2>
+					<p>Ясли-сад «Еркем-ай» — это место, где каждый ребёнок чувствует себя любимым и важным. Наши педагоги —
+						не просто воспитатели, а настоящие друзья и наставники.</p>
+					<p>Мы создаём среду, в которой дети раскрывают таланты, учатся общаться, мыслить и творить. Каждый день
+						наполнен теплом, заботой и радостью открытий.</p>
+					<a href="#contact" class="btn_primary">Записать ребёнка</a>
+				</div>
+				<div class="about_img_wrap">
+					<img src="img/childgirlwithglobus.png" alt="Девочка с глобусом">
+				</div>
+			</div>
+		</section>
+
+		<section class="advantages_section">
+			<img class="section_wave_top" src="img/wave-dark.svg" alt="">
+			<img class="section_wave_bottom" src="img/wave-white.svg" alt="">
+			<div class="advantages_inner">
+				<div class="section_header">
+					<span class="section_label">Наши преимущества</span>
+					<h2 class="section_title">Мы заботимся о каждом</h2>
+				</div>
+				<div class="advantages_grid">
+					<div class="advantage_card">
+						<div class="advantage_icon">
+							<img src="img/piramid-ring.png" alt="">
+						</div>
+						<h3>Тёплая атмосфера</h3>
+						<p>Каждое утро детей встречают с улыбкой. Мы создаём домашний уют и ощущение безопасности.</p>
+					</div>
+					<div class="advantage_card">
+						<div class="advantage_icon">
+							<img src="img/puzzle-1.png" alt="">
+						</div>
+						<h3>Развивающие занятия</h3>
+						<p>Игры, творчество и обучение с учётом возраста и индивидуальных особенностей ребёнка.</p>
+					</div>
+					<div class="advantage_card">
+						<div class="advantage_icon">
+							<img src="img/teacher.png" alt="">
+						</div>
+						<h3>Опытные педагоги</h3>
+						<p>Наши воспитатели — квалифицированные специалисты с любовью к детям и многолетним опытом.</p>
+					</div>
+					<div class="advantage_card">
+						<div class="advantage_icon">
+							<img src="img/board.png" alt="">
+						</div>
+						<h3>Безопасность и комфорт</h3>
+						<p>Безопасная территория, здоровое питание и постоянный контроль состояния каждого ребёнка.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="programs_section" id="programs">
+			<div class="programs_inner">
+				<div class="section_header">
+					<span class="section_label">Чему мы учим</span>
+					<h2 class="section_title">Развивающие программы</h2>
+				</div>
+				<div class="programs_grid">
+					<div class="program_card">
+						<div class="program_card_img">
+							<img src="img/obuchenierebenka.png" alt="Речь и эмоциональный интеллект">
+						</div>
+						<div class="program_card_body">
+							<h3>Речь и эмоциональный интеллект</h3>
+							<p>Развиваем коммуникативные навыки и эмоциональный интеллект через игры и общение.</p>
+						</div>
+					</div>
+					<div class="program_card">
+						<div class="program_card_img">
+							<img src="img/goncharnoemasterstvo.png" alt="Творческие занятия">
+						</div>
+						<div class="program_card_body">
+							<h3>Творческие занятия</h3>
+							<p>Гончарное мастерство, рисование, лепка — раскрываем творческий потенциал каждого.</p>
+						</div>
+					</div>
+					<div class="program_card">
+						<div class="program_card_img">
+							<img src="img/razvivaushieigri.png" alt="Логика и математика">
+						</div>
+						<div class="program_card_body">
+							<h3>Логика и математика</h3>
+							<p>Развиваем логическое мышление через игры, конструкторы и робототехнику.</p>
+						</div>
+					</div>
+					<div class="program_card">
+						<div class="program_card_img">
+							<img src="img/rebenoksoskeytom.png" alt="Физическое воспитание">
+						</div>
+						<div class="program_card_body">
+							<h3>Физическое воспитание</h3>
+							<p>Утренняя гимнастика, подвижные игры и активный отдых для здоровья и бодрости.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="cta_section">
+			<img class="cta_bg" src="img/razvivayushieigri2.jpeg" alt="">
+			<img class="section_wave_top" src="img/wave-white.svg" alt="">
+			<img class="section_wave_bottom" src="img/wave-white.svg" alt="">
+			<div class="cta_inner">
+				<div class="cta_stats">
+					<div class="cta_stat">
+						<strong>5+</strong>
+						<span>лет работы</span>
+					</div>
+					<div class="cta_stat">
+						<strong>200+</strong>
+						<span>счастливых детей</span>
+					</div>
+					<div class="cta_stat">
+						<strong>15</strong>
+						<span>педагогов</span>
+					</div>
+					<div class="cta_stat">
+						<strong>6</strong>
+						<span>направлений</span>
+					</div>
+				</div>
+				<h2 class="cta_title">Подарите ребёнку лучший старт в жизни</h2>
+				<p class="cta_text">Запишитесь на экскурсию и убедитесь сами, почему родители выбирают «Еркем-ай»</p>
+				<a href="#contact" class="btn_primary">Записаться в садик</a>
+			</div>
+		</section>
+
+		<section class="nutrition_section" id="nutrition">
+			<div class="nutrition_inner">
+				<div class="nutrition_img_wrap">
+					<img src="img/pitanie.png" alt="Питание в садике">
+				</div>
+				<div class="nutrition_text">
+					<span class="section_label">Здоровье</span>
+					<h2 class="section_title">Здоровое питание</h2>
+					<p>Мы уделяем особое внимание питанию детей. Только натуральные продукты, разнообразное меню и строгое
+						соблюдение режима приёмов пищи.</p>
+					<ul class="nutrition_list">
+						<li>Пятиразовое сбалансированное питание</li>
+						<li>Натуральные продукты без консервантов</li>
+						<li>Меню составлено диетологом</li>
+						<li>Учёт индивидуальных особенностей и аллергий</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="reviews_section" id="reviews">
+			<div class="reviews_inner">
+				<div class="section_header">
+					<span class="section_label">Отзывы</span>
+					<h2 class="section_title">Что говорят родители</h2>
+				</div>
+				<div class="reviews_grid">
+					<div class="review_card">
+						<div class="review_stars">★★★★★</div>
+						<p class="review_text">«Наш сын с удовольствием идёт в садик каждое утро. Педагоги внимательны и
+							добры. Айгуль Сейтжановна — просто замечательный воспитатель!»</p>
+						<div class="review_author">
+							<div class="review_avatar">
+								<img src="img/loving-parents-kissing-child.jpg" alt="Семья Ахметовых">
+							</div>
+							<div class="review_author_info">
+								<strong>Семья Ахметовых</strong>
+								<span>Родители воспитанника</span>
+							</div>
+						</div>
+					</div>
+					<div class="review_card">
+						<div class="review_stars">★★★★★</div>
+						<p class="review_text">«Дочка обожает ходить сюда. Питание отличное, всегда свежее и разнообразное.
+							Чувствуется, что персонал действительно любит детей.»</p>
+						<div class="review_author">
+							<div class="review_avatar">
+								<img src="img/winemaker-family-together-in-vineyard.jpg" alt="Семья Нурмагамбетовых">
+							</div>
+							<div class="review_author_info">
+								<strong>Семья Нурмагамбетовых</strong>
+								<span>Родители воспитанницы</span>
+							</div>
+						</div>
+					</div>
+					<div class="review_card">
+						<div class="review_stars">★★★★★</div>
+						<p class="review_text">«Уютная атмосфера, добрые педагоги и хорошая программа развития. Ребёнок вырос
+							и окреп. Очень довольны выбором этого садика!»</p>
+						<div class="review_author">
+							<div class="review_avatar">
+								<img src="img/young-mother-is-playing-with-her-child-outside.jpg" alt="Семья Сейтовых">
+							</div>
+							<div class="review_author_info">
+								<strong>Семья Сейтовых</strong>
+								<span>Родители воспитанника</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="gallery_section">
+			<div class="gallery_inner">
+				<div class="section_header">
+					<span class="section_label">Галерея</span>
+					<h2 class="section_title">Жизнь в нашем садике</h2>
+				</div>
+				<div class="gallery_grid">
+					<div class="gallery_item">
+						<img src="img/obuchenierebenka.png" alt="Обучение">
+					</div>
+					<div class="gallery_item">
+						<img src="img/goncharnoemasterstvo.png" alt="Гончарное мастерство">
+					</div>
+					<div class="gallery_item">
+						<img src="img/horeografia.png" alt="Хореография">
+					</div>
+					<div class="gallery_item">
+						<img src="img/obuchenieangliyskim.png" alt="Английский язык">
+					</div>
+					<div class="gallery_item">
+						<img src="img/rebenoksoskeytom.png" alt="Физическая активность">
+					</div>
+					<div class="gallery_item">
+						<img src="img/zdorovoepitanie.png" alt="Здоровое питание">
+					</div>
+					<div class="gallery_item">
+						<img src="img/razvivaushieigri.png" alt="Развивающие игры">
+					</div>
+					<div class="gallery_item">
+						<img src="img/razvivayushieigri2.jpeg" alt="Развивающие игры">
+					</div>
+					<div class="gallery_item">
+						<img src="img/pitanie.png" alt="Питание">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact_section" id="contact">
+			<div class="contact_inner">
+				<div class="section_header">
+					<span class="section_label">Мы рядом</span>
+					<h2 class="section_title">Свяжитесь с нами</h2>
+				</div>
+				<div class="contact_layout">
+					<div class="contact_info">
+						<div class="contact_block">
+							<div class="contact_block_icon">
+								<img src="img/icon-clock.svg" alt="">
+							</div>
+							<div class="contact_block_text">
+								<strong>Режим работы</strong>
+								<span>Пн–Пт: 7:00 – 19:00</span>
+							</div>
+						</div>
+						<div class="contact_block">
+							<div class="contact_block_icon">
+								<img src="img/icon-phone.svg" alt="">
+							</div>
+							<div class="contact_block_text">
+								<strong>Телефон</strong>
+								<a href="tel:+77078096652">+7 707 809 6652</a>
+							</div>
+						</div>
+						<div class="contact_block">
+							<div class="contact_block_icon">
+								<img src="img/icon-email.svg" alt="">
+							</div>
+							<div class="contact_block_text">
+								<strong>Email</strong>
+								<a href="mailto:ismailovan@mail.ru">ismailovan@mail.ru</a>
+							</div>
+						</div>
+						<div class="contact_block">
+							<div class="contact_block_icon">
+								<img src="img/icon-location.svg" alt="">
+							</div>
+							<div class="contact_block_text">
+								<strong>Адрес</strong>
+								<span>ул. Жамакаева 93, Медеуский район, Алматы</span>
+							</div>
+						</div>
+
+					</div>
+					<div class="contact_socials_wrap">
+						<p>Напишите нам — ответим быстро и с удовольствием!</p>
+						<div class="contact_socials">
+							<a href="https://wa.me/77078096652" class="contact_social_btn contact_social_btn_wa"
+								target="_blank" rel="noopener">
+								<img src="img/wh.svg" alt="WhatsApp">
+								<span>WhatsApp</span>
+							</a>
+							<a href="#" class="contact_social_btn contact_social_btn_tg" target="_blank" rel="noopener">
+								<img src="img/tg.svg" alt="Telegram">
+								<span>Telegram</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<img class="section_wave_top" src="img/wave-white.svg" alt="">
+		<div class="footer_inner">
+			<div class="footer_col">
+				<a href="#" class="footer_logo">
+					<img src="img/logo.svg" alt="Еркем-ай">
+				</a>
+				<p>Ясли-сад «Еркем-ай» — место, где дети растут с любовью и заботой.</p>
+			</div>
+			<div class="footer_col">
+				<h4>Навигация</h4>
+				<nav class="footer_nav">
+					<a href="#about">О нас</a>
+					<a href="#services">Услуги</a>
+					<a href="#programs">Программы</a>
+					<a href="#nutrition">Питание</a>
+					<a href="#reviews">Отзывы</a>
+					<a href="#contact">Контакты</a>
+					<a href="documents.html">Документы</a>
+				</nav>
+			</div>
+			<div class="footer_col">
+				<h4>Контакты</h4>
+				<div class="footer_contacts">
+					<a href="tel:+77078096652">+7 707 809 6652</a>
+					<a href="mailto:ismailovan@mail.ru">ismailovan@mail.ru</a>
+					<span>ул. Жамакаева 93, Алматы</span>
+					<div class="footer_socials">
+						<a href="https://wa.me/77078096652" class="footer_social_icon" target="_blank" rel="noopener">
+							<img src="img/wh.svg" alt="WhatsApp">
+						</a>
+						<a href="#" class="footer_social_icon" target="_blank" rel="noopener">
+							<img src="img/tg.svg" alt="Telegram">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer_col">
+				<h4>Обратная связь</h4>
+				<form class="footer_form" action="#" method="post">
+					<input type="text" name="name" placeholder="Ваше имя" class="footer_form_input">
+					<input type="email" name="email" placeholder="Email" class="footer_form_input">
+					<input type="submit" value="Отправить" class="footer_form_submit">
+				</form>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="footer_bottom_inner">
+				<span>© 2026 Ясли-сад «Еркем-ай». Все права защищены.</span>
+			</div>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
