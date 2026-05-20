@@ -654,7 +654,7 @@ ul {
     }
 
     .about_img_wrap img {
-        height: 300px;
+        height: 100%;
     }
 }
 
